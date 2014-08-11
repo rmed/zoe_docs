@@ -11,7 +11,7 @@ Installing an agent manually requires that you download the code and place it in
 Using the agent manager
 -----------------------
 
-The `Zoe startup kit <https://github.com/voiser/zoe-startup-kit>`_ should include an agent named *zam*. This is the `Zoe Agent Manager <https://github.com/rmed/zoe_agent_manager>`_, which aims to facilitate the installation and management of agents in your *Zoe* instance. If the `Zoe Agent Manager <https://github.com/rmed/zoe_agent_manager>`_ is not installed, you can easily install it manually by downloading the source and following the instructions.
+The `Zoe startup kit <https://github.com/voiser/zoe-startup-kit>`_ should include an agent named *zam*. This is the `Zoe Agent Manager <https://github.com/rmed/zoe_agent_manager>`_, which aims to facilitate the installation and management of agents in your *Zoe* instance. If the `Zoe Agent Manager <https://github.com/rmed/zoe_agent_manager>`_ is not installed, you can easily install it manually by downloading the source and following the provided instructions.
 
 The manager uses git repositories to fetch and install agents. For instance, the `dummy agent <https://github.com/rmed/dummy_agent>`_ has the following git source URL::
 
