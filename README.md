@@ -1,5 +1,4 @@
-Zoe Docs
-========
+# Zoe Docs [![Doc status](https://readthedocs.org/projects/zoe/badge/?version=latest)](http://zoe.readthedocs.org/en/latest/)
 
 Learn everything about Zoe.
 
@@ -44,5 +43,5 @@ $ sphinx-intl build
 Alternatively, you can build the localized documentation offline by running:
 
 ```
-$ make -e SPHINXOPTS="-D language='de'" html
+$ make -e SPHINXOPTS="-D language='LANG_CODE'" html
 ```
