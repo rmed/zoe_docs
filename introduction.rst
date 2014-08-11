@@ -4,7 +4,7 @@ Introduction
 What is Zoe?
 ------------
 
-Zoe is an assitant bot for the *Grupo de Usuarios de Linux UC3M* (GUL UC3M) non-profit organization. Its aim is to perform repetitive and time-consuming tasks in an asynchronous, uncoupled and lazy manner.
+Zoe is an assistant bot for the *Grupo de Usuarios de Linux UC3M* (GUL UC3M) non-profit organization. Its aim is to perform repetitive and time-consuming tasks in an asynchronous, uncoupled and lazy manner.
 
 How does it work?
 -----------------
