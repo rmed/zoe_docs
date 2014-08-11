@@ -1,9 +1,7 @@
 Getting started
 ===============
 
-.. _Zoe startup kit: https://github.com/voiser/zoe-startup-kit
-
-This section will help you getting started with the `Zoe startup kit`_. 
+This section will help you getting started with the `Zoe startup kit <https://github.com/voiser/zoe-startup-kit>`_. 
 
 .. toctree::
     :maxdepth: 2

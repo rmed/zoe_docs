@@ -16,6 +16,4 @@ The *server* implements a *message bus* that the agents use to interchange messa
 License
 -------
 
-.. _Zoe server: https://github.com/voiser/gul-zoe-server
-
-The main `Zoe server`_ is released under the MIT license. However, the agents' license may vary depending on each agent's developer.
+The main `Zoe server <https://github.com/voiser/gul-zoe-server>`_ is released under the MIT license. However, the agents' license may vary depending on each agent's developer.

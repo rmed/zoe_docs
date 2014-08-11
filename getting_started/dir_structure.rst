@@ -1,9 +1,7 @@
 Directory structure
 ===================
 
-.. _Zoe startup kit: https://github.com/voiser/zoe-startup-kit
-
-The `Zoe startup kit`_ has the following directory structure::
+The `Zoe startup kit <https://github.com/voiser/zoe-startup-kit>`_ has the following directory structure::
 
     agents/         Installed Zoe agents
     cmdproc/        Administrator commands in natural language
