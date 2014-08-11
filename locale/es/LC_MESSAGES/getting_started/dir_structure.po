@@ -1,0 +1,26 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zoe 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-11 11:26+0200\n"
+"PO-Revision-Date: 2014-08-11 12:23+0100\n"
+"Last-Translator: Rafael Medina García <rafamedgar@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: es\n"
+
+#: ../../getting_started/dir_structure.rst:2
+msgid "Directory structure"
+msgstr "Estructura de directorios"
+
+#: ../../getting_started/dir_structure.rst:4
+msgid ""
+"The `Zoe startup kit <https://github.com/voiser/zoe-startup-kit>`_ has the "
+"following directory structure::"
+msgstr ""
+"El `kit de iniciación de Zoe <https://github.com/voiser/zoe-startup-kit>`_ "
+"tiene la siguiente estructura::"

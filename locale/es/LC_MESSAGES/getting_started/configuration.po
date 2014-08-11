@@ -1,0 +1,131 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zoe 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-11 11:26+0200\n"
+"PO-Revision-Date: 2014-08-11 12:32+0100\n"
+"Last-Translator: Rafael Medina García <rafamedgar@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../getting_started/configuration.rst:2
+msgid "Configuration"
+msgstr "Configuración"
+
+#: ../../getting_started/configuration.rst:4
+msgid ""
+"*Zoe*'s configuration files are found in the ``etc/`` directory. These are "
+"the base files you will find there::"
+msgstr ""
+"Los archivos de configuración de *Zoe* se encuentran en el directorio ``etc/"
+"``. Estos son los archivos base que se encuentran en el directorio::"
+
+#: ../../getting_started/configuration.rst:11
+msgid "Environment"
+msgstr "Entorno"
+
+#: ../../getting_started/configuration.rst:13
+msgid ""
+"The ``environment.sh`` script sets several variables such as the *server "
+"host*, *twitter credentials*, *jabber information*, etc. It has the "
+"following content:"
+msgstr ""
+"El script ``environment.sh`` establece variables tales como el *host del "
+"servidor*, *credenciales de twitter*, *información de jabber*, etc. Tiene el "
+"siguiente contenido:"
+
+#: ../../getting_started/configuration.rst:42
+msgid ""
+"**You should never give Zoe your own twitter/jabber credentials. Create a "
+"new account if you intend to use them.**"
+msgstr ""
+"**Nunca des a Zoe tus propias credenciales de twitter/jabber. Crea una nueva "
+"cuenta si pretendes usarlos.**"
+
+#: ../../getting_started/configuration.rst:44
+msgid ""
+"The information required to connect to a Twitter account can be obtained "
+"from the Twitter profile."
+msgstr ""
+"La información requerida para conectarse a una cuenta de Twitter se puede "
+"obtener del perfil de usuario de Twitter."
+
+#: ../../getting_started/configuration.rst:46
+msgid ""
+"By default, the Jabber and GMail accounts use the same credentials due to "
+"the Google Talk (Hangouts) service using Jabber. You can use other Jabber "
+"service and email provider if you wish so."
+msgstr ""
+"Por defecto, las cuentas de Jabber y GMail usan las mismas credenciales "
+"debido a que el servicio de Google Talk (Hangouts) utiliza Jabber. Puedes "
+"utilizar otros servicios de Jabber y correo electrónico si lo deseas."
+
+#: ../../getting_started/configuration.rst:49
+msgid "Users"
+msgstr "Usuarios"
+
+#: ../../getting_started/configuration.rst:51
+msgid "The ``zoe-users.conf`` file follows this structure:"
+msgstr "El archivo ``zoe-users.conf`` sigue esta estructura:"
+
+#: ../../getting_started/configuration.rst:69
+msgid ""
+"Each user is identified using the ``[subject USER]`` tag and has the "
+"following attributes:"
+msgstr ""
+"Cada usuario está identificado por la etiqueta ``[subject USUARIO]`` y tiene "
+"los siguientes atributos:"
+
+#: ../../getting_started/configuration.rst:71
+msgid "``name``: The user's name (e.g. Zoe)."
+msgstr "``name``: El nombre del usuario (ej. Zoe)."
+
+#: ../../getting_started/configuration.rst:72
+msgid "``twitter``: The user's twitter username (e.g. gul_zoe)."
+msgstr "``twitter``: El nombre de usuario de twitter (ej. gul_zoe)."
+
+#: ../../getting_started/configuration.rst:73
+msgid ""
+"``preferred``: The preferred way for Zoe to communicate with the user. "
+"Available values are ``twitter``, ``jabber``, ``mail``."
+msgstr ""
+"``preferred``: La forma de comunicación con Zoe preferida por el usuario. "
+"Los posibles valores son ``twitter``, ``jabber``, ``mail``."
+
+#: ../../getting_started/configuration.rst:74
+msgid ""
+"``jabber``: The user's jabber address. Note that if you are using *Google "
+"Hangouts*, the jabber addresses have the format "
+"``abcdefghijklmnopqrstuwxyz1@public.talk.google.com``. If you don't know "
+"this address, you may try speaking with *Zoe* through Jabber and getting the "
+"address from the logs."
+msgstr ""
+"``jabber``: La dirección de jabber del usuario. Si utilizas *Google "
+"Hangouts*, las direcciones de jabber siguen un formato "
+"``abcdefghijklmnopqrstuwxyz1@public.talk.google.com``. Si no sabes cuál es "
+"la dirección, puedes intentar hablar con *Zoe* por Jabber y obtener la "
+"dirección de los registros."
+
+#: ../../getting_started/configuration.rst:75
+msgid "``mail``: The user's mail address."
+msgstr "``mail``: La dirección de correo del usuario."
+
+#: ../../getting_started/configuration.rst:76
+msgid "``alias``: The user's alias."
+msgstr "``alias``: El alias del usuario."
+
+#: ../../getting_started/configuration.rst:78
+msgid ""
+"Some agents may use *groups* to send mails to several users at the same time "
+"or check for user permissions. Define a new group by using the scructure "
+"``[group GROUPNAME]`` and adding its users to the ``members`` attribute."
+msgstr ""
+"Algunos agentes pueden utilizar *grupos* para envíar correos a varios "
+"usuarios al mismo tiempo o comprobar permisos. Se puede definir un nuevo "
+"grupo usando la estructura ``[group NOMBRE DE GRUPO]`` y añadiendo a sus "
+"usuarios en el atributo``members``."

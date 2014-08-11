@@ -1,0 +1,22 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zoe 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-11 11:26+0200\n"
+"PO-Revision-Date: 2014-08-11 12:36+0100\n"
+"Last-Translator: Rafael Medina García <rafamedgar@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../agents/index.rst:2
+msgid "Agents"
+msgstr "Agentes"
+
+#: ../../agents/index.rst:4
+msgid "In this section you will find information related to agents."
+msgstr "En esta sección encontrarás información relacionada con los agentes."

@@ -1,0 +1,98 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zoe 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-11 11:26+0200\n"
+"PO-Revision-Date: 2014-08-11 12:48+0100\n"
+"Last-Translator: Rafael Medina García <rafamedgar@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../agents/messages.rst:2
+msgid "Messages"
+msgstr "Mensajes"
+
+#: ../../agents/messages.rst:5
+msgid "Message structure"
+msgstr "Estructura de mensajes"
+
+#: ../../agents/messages.rst:7
+msgid ""
+"Agents interchange messages through the server *message bus*. These message "
+"strings have a *key-value* structure of the form::"
+msgstr ""
+"Los agentes intercambian mensajes mediante el *bus de mensajes* del "
+"servidor. Estos mensajes tienen una estructura *clave-valor* de la forma::"
+
+#: ../../agents/messages.rst:11
+msgid ""
+"For instance, the ``broadcast`` agent can send a message to a specific user. "
+"The message string to do so would look like this::"
+msgstr ""
+"Por ejemplo, el agente ``broadcast`` puede enviar un mensaje a un usuario "
+"específico. La cadena para hacerlo sería algo parecido a esto::"
+
+#: ../../agents/messages.rst:15
+msgid "Now, analyzing the message:"
+msgstr "Analizando el mensaje:"
+
+#: ../../agents/messages.rst:17
+msgid "``dst``: Agent that is supposed to receive this message."
+msgstr "``dst``: Agente al que va destinado el mensaje."
+
+#: ../../agents/messages.rst:18
+msgid ""
+"``tag``: Action to perform. There can be several ``tag`` entries in the "
+"message."
+msgstr "``tag``: Acción a realizar. Puede haber varios ``tag`` en el mensaje."
+
+#: ../../agents/messages.rst:19
+msgid "``msg``: Message to send to the user."
+msgstr "``msg``: Mensaje que mandar al usuario."
+
+#: ../../agents/messages.rst:20
+msgid ""
+"``to``: User to send the message to. This name is checked against the user "
+"list to see what John's address and preferred contact method are."
+msgstr ""
+"``to``: Usuario al que mandar el mensaje. El nombre se comprueba con la "
+"lista de usuarios para ver cuál es la dirección de John y su método de "
+"contacto preferido."
+
+#: ../../agents/messages.rst:22
+msgid ""
+"The message string will vary depending on each agent, but most of them will "
+"have common parts such as ``dst`` and ``tag``."
+msgstr ""
+"La cadena puede variar dependiendo de cada agente, pero la mayoría tendrán "
+"partes comunes como ``dst`` y ``tag``."
+
+#: ../../agents/messages.rst:25
+msgid "Sending messages to the server"
+msgstr "Enviando mensajes al servidor"
+
+#: ../../agents/messages.rst:27
+msgid ""
+"Apart from the agents interchanging messages, it is also possible to "
+"manually send a message to the server in order to have an agent execute some "
+"action. Taking the previous ``broadcast`` agent example, the message could "
+"be sent like so::"
+msgstr ""
+"Aparte del intercambio de mensajes de los agentes, también se puede enviar "
+"un mensaje al servidor manualmente para que un agente ejecute alguna acción. "
+"Tomando el anterior ejemplo del agente ``broadcast``, el mensaje se podría "
+"enviar como::"
+
+#: ../../agents/messages.rst:31
+msgid ""
+"Now, the ``logs/broadcast.log`` file would have an entry for the received "
+"message and the action executed (or any errors while doing so)."
+msgstr ""
+"Ahora, el archivo ``logs/broadcast.log`` tendría una entrada con el mensaje "
+"recibido y la acción realizada (o cualquier error mientras se llevaba a "
+"cabo)."

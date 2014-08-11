@@ -1,0 +1,30 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zoe 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-11 11:26+0200\n"
+"PO-Revision-Date: 2014-08-11 12:21+0100\n"
+"Last-Translator: Rafael Medina García <rafamedgar@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: es\n"
+
+#: ../../getting_started/installation.rst:2
+msgid "Installation"
+msgstr "Instalación"
+
+#: ../../getting_started/installation.rst:4
+msgid ""
+"Fetch the source for the `Zoe startup kit <https://github.com/voiser/zoe-"
+"startup-kit>`_ and place it in the directory you want to run *Zoe* from, "
+"such as ``/home/zoe``. Navigate to that directory and make the following "
+"scripts executable::"
+msgstr ""
+"Descarga el código del `kit de iniciación de Zoe <https://github.com/voiser/"
+"zoe-startup-kit>`_ y ponlo en el directorio desde el que quieras ejecutar "
+"*Zoe*, como por ejemplo ``/home/zoe``. Navega hasta el directorio y haz los "
+"siguientes scripts ejecutables::"

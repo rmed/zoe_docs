@@ -1,0 +1,40 @@
+#
+# FULL NAME <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zoe 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-11 11:26+0200\n"
+"PO-Revision-Date: 2014-08-11 12:58+0100\n"
+"Last-Translator: Rafael Medina García <rafamedgar@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: es\n"
+
+#: ../../getting_started/requirements.rst:2
+msgid "Requirements"
+msgstr "Requisitos"
+
+#: ../../getting_started/requirements.rst:4
+msgid "OS X or Linux (BSD should be fine too, although it has not been tested)"
+msgstr "OS X o Linux (BSD también debería servir, aunque no ha sido probado)"
+
+#: ../../getting_started/requirements.rst:5
+msgid "Bash"
+msgstr "Bash"
+
+#: ../../getting_started/requirements.rst:6
+msgid "Java 1.7"
+msgstr "Java 1.7"
+
+#: ../../getting_started/requirements.rst:7
+msgid "Python 3"
+msgstr "Python 3"
+
+#: ../../getting_started/requirements.rst:8
+msgid "Perl 5"
+msgstr "Perl 5"

@@ -1,0 +1,93 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zoe 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-11 11:26+0200\n"
+"PO-Revision-Date: 2014-08-11 12:55+0100\n"
+"Last-Translator: Rafael Medina García <rafamedgar@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: es\n"
+
+#: ../../agents/installing.rst:2
+msgid "Installing new agents"
+msgstr "Instalando nuevos agentes"
+
+#: ../../agents/installing.rst:4
+msgid "There are two ways of installing a new agent into your *Zoe* instance."
+msgstr "Hay dos formas de instalar un nuevo agente en tu instancia de *Zoe*."
+
+#: ../../agents/installing.rst:7
+msgid "Manual installation"
+msgstr "Instalación manual"
+
+#: ../../agents/installing.rst:9
+msgid ""
+"Installing an agent manually requires that you download the code and place "
+"it in the *Zoe* installation according to the agent developer's "
+"instructions. Usually, it will just be a matter of copying and pasting files "
+"and maybe modifying some configurations. When the server is started the next "
+"time, the new agent should be up and running."
+msgstr ""
+"Para instalar un agente manualmente tienes que descargar el código y colocar "
+"los archivos en la instalación de *Zoe* siguiendo las instrucciones del "
+"desarrollador. Normalmente, será una mera cuestión de copiar y pegar "
+"archivos y quizá modificar alguna configuración. La próxima vez que se "
+"inicie el servidor, el agente debería funcionar."
+
+#: ../../agents/installing.rst:12
+msgid "Using the agent manager"
+msgstr "Usando el gestor de agentes"
+
+#: ../../agents/installing.rst:20
+msgid ""
+"If you were to tell the manager to install this agent, you could send this "
+"message to the server::"
+msgstr ""
+"Si tuvieras que decirle al gestor que instalara este agente, se podría "
+"mandar el siguiente mensaje al servidor::"
+
+#: ../../agents/installing.rst:24
+msgid "Or, if you prefer using natural language and Jabber::"
+msgstr "O si prefieres usar lenguaje natural y Jabber::"
+
+#: ../../agents/installing.rst:14
+msgid ""
+"The `Zoe startup kit <https://github.com/voiser/zoe-startup-kit>`_ should "
+"include an agent named *zam*. This is the `Zoe Agent Manager <https://github."
+"com/rmed/zoe_agent_manager>`_, which aims to facilitate the installation and "
+"management of agents in your *Zoe* instance. If the `Zoe Agent Manager "
+"<https://github.com/rmed/zoe_agent_manager>`_ is not installed, you can "
+"easily install it manually by downloading the source and following the "
+"instructions."
+msgstr ""
+"El `kit de iniciación de Zoe <https://github.com/voiser/zoe-startup-kit>`_ "
+"debería incluir un agente llamado *zam*. Se trata del `Zoe Agent Manager "
+"<https://github.com/rmed/zoe_agent_manager>`_, cuyo fin es el defacilitar la "
+"instalación y gestión de agentes en la instancia de *Zoe*. Si el `Zoe Agent "
+"Manager <https://github.com/rmed/zoe_agent_manager>`_ no está instalado, "
+"puedes instalarlo fácilmente de forma manual descargando el código y "
+"siguiendo las instrucciones."
+
+#: ../../agents/installing.rst:16
+msgid ""
+"The manager uses git repositories to fetch and install agents. For instance, "
+"the `dummy agent <https://github.com/rmed/dummy_agent>`_ has the following "
+"git source URL::"
+msgstr ""
+"El gestor utiliza repositorios git para obtener e instalar agentes. Por "
+"ejemplo, el `agente dummy <https://github.com/rmed/dummy_agent>`_ tiene la "
+"siguiente URL de git::"
+
+#: ../../agents/installing.rst:28
+msgid ""
+"For more information on the manager and all the commands it has, please "
+"check the `zam wiki <https://github.com/rmed/zoe_agent_manager/wiki>`_."
+msgstr ""
+"Para más información sobre el gestor y todos los comandos disponibles, por "
+"favor échale un vistazo a la `wiki de zam <https://github.com/rmed/"
+"zoe_agent_manager/wiki>`_."

@@ -1,0 +1,28 @@
+#
+# FULL NAME <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zoe 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-11 11:26+0200\n"
+"PO-Revision-Date: 2014-08-11 12:21+0100\n"
+"Last-Translator: Rafael Medina García <rafamedgar@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: es\n"
+
+#: ../../getting_started/index.rst:2
+msgid "Getting started"
+msgstr "Empezando"
+
+#: ../../getting_started/index.rst:4
+msgid ""
+"This section will help you getting started with the `Zoe startup kit "
+"<https://github.com/voiser/zoe-startup-kit>`_."
+msgstr ""
+"Esta sección te ayudará a empezar con el `kit de iniciación de Zoe <https://"
+"github.com/voiser/zoe-startup-kit>`_."

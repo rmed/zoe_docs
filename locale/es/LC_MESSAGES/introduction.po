@@ -1,0 +1,80 @@
+# FULL NAME <EMAIL@ADDRESS>, 2014.
+# Rafael Medina García <rafamedgar@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zoe 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-11 11:26+0200\n"
+"PO-Revision-Date: 2014-08-11 12:20+0100\n"
+"Last-Translator: Rafael Medina García <rafamedgar@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: es\n"
+
+#: ../../introduction.rst:2
+msgid "Introduction"
+msgstr "Introducción"
+
+#: ../../introduction.rst:5
+msgid "What is Zoe?"
+msgstr "¿Qué es Zoe?"
+
+#: ../../introduction.rst:7
+msgid ""
+"Zoe is an assitant bot for the *Grupo de Usuarios de Linux UC3M* (GUL UC3M) "
+"non-profit organization. Its aim is to perform repetitive and time-consuming "
+"tasks in an asynchronous, uncoupled and lazy manner."
+msgstr ""
+"Zoe es un bot asistente para la organización sin ánimo de luctro del *Grupo "
+"de Usuarios de Linux UC3M* (GUL UC3M). Su objetivo es el de tareas "
+"repetitivas y que consumen mucho tiempo de forma asíncrona, desacoplada y "
+"perezosa."
+
+#: ../../introduction.rst:10
+msgid "How does it work?"
+msgstr "¿Cómo funciona?"
+
+#: ../../introduction.rst:12
+msgid ""
+"Zoe has two main components: the main *Zoe server*, and a group of *agents*, "
+"small programs performing a few, small and well defined tasks such as "
+"capturing statistics from the organization's systems, sending emails, "
+"generating reports and controlling alarms."
+msgstr ""
+"Zoe tiene dos componentes principales: el *servidor de Zoe*, y un grupo de "
+"*agentes*, pequeños programas que realizan algunas pequeñas y bien definidas "
+"tareas tales como captura de estadísticas de los sistemas de la "
+"organización, envío de emails, generación de informes y control de alarmas."
+
+#: ../../introduction.rst:14
+msgid ""
+"The *server* implements a *message bus* that the agents use to interchange "
+"messages asynchronously. It is also possible for Zoe to receive commands "
+"from the system administrators to execute tasks on demand."
+msgstr ""
+"El *servidor* implementa un *bus de mensajes* que los agentes utilizan para "
+"intercambiar mensajes de forma asíncrona. Zoe también puede recibir comandos "
+"de los administradores del sistema para realizar tareas bajo demanda."
+
+#: ../../introduction.rst:17
+msgid "License"
+msgstr "Licencia"
+
+#: ../../introduction.rst:19
+msgid ""
+"The main `Zoe server <https://github.com/voiser/gul-zoe-server>`_ is "
+"released under the MIT license. However, the agents' license may vary "
+"depending on each agent's developer."
+msgstr ""
+"El `servidor Zoe <https://github.com/voiser/gul-zoe-server>`_ se publica "
+"bajo la licencia MIT. Sin embargo, la licencia de los agentes puede variar "
+"dependiendo del desarrollador del agente."
+
+#~ msgid ""
+#~ "The main `Zoe server`_ is released under the MIT license. However, the "
+#~ "agents' license may vary depending on each agent's developer."
+#~ msgstr "El "

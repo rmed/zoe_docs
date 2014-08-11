@@ -1,0 +1,63 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zoe 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-11 11:26+0200\n"
+"PO-Revision-Date: 2014-08-11 12:36+0100\n"
+"Last-Translator: Rafael Medina García <rafamedgar@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../../getting_started/first_run.rst:2
+msgid "First run"
+msgstr "Primera ejecución"
+
+#: ../../getting_started/first_run.rst:4
+msgid ""
+"From a terminal navigate to the *Zoe* root directory (e.g. ``/home/zoe``) "
+"and do the following:"
+msgstr ""
+"Desde una terminal, navega al directorio raíz de *Zoe* (ej. ``/home/zoe``) y "
+"ejecuta:"
+
+#: ../../getting_started/first_run.rst:6
+msgid "Load the *Zoe* configuration::"
+msgstr "Carga la configuración de *Zoe*::"
+
+#: ../../getting_started/first_run.rst:10
+msgid "Launch *Zoe*::"
+msgstr "Ejecuta *Zoe*::"
+
+#: ../../getting_started/first_run.rst:14
+msgid ""
+"You will see that the output shows the agents that have been started. You "
+"can check the status of these agents by running::"
+msgstr ""
+"Verás que la terminal muestra los agentes que se han iniciado. Puedes "
+"comprobar el estado de estos agentes ejecutando::"
+
+#: ../../getting_started/first_run.rst:18
+msgid ""
+"If there are dead agents, you may want to check their log files (located in "
+"the ``log/`` directory). Most agent errors are due to misconfigurations."
+msgstr ""
+"Si hay agentes muertos, quizá quieras comprobar sus archivos de registro (en "
+"el directorio ``log/``). La mayoría de los errores suelen deberse a errores "
+"de configuración."
+
+#: ../../getting_started/first_run.rst:20
+msgid ""
+"That's it, now you have a functional *Zoe* instance running in your machine. "
+"You can stop the server by typing::"
+msgstr ""
+"Eso es todo, ahora tienes una instancia de *Zoe* funcional y ejecutándose en "
+"tu máquina. Puedes detener el servidor mediante::"
+
+#: ../../getting_started/first_run.rst:24
+msgid "Which will also stop all the agents running."
+msgstr "Lo cuál detendrá también todos los agentes en ejecución."

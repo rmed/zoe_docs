@@ -1,0 +1,20 @@
+#
+# FULL NAME <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zoe 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-10 11:04+0200\n"
+"PO-Revision-Date: 2014-08-11 12:21+0100\n"
+"Last-Translator: Rafael Medina García <rafamedgar@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: es\n"
+
+#: ../../index.rst:2
+msgid "Welcome to Zoe!"
+msgstr "¡Bienvenid@ a Zoe!"
