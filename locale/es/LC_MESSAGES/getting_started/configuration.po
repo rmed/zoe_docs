@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Zoe 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-11 11:26+0200\n"
-"PO-Revision-Date: 2014-08-11 12:32+0100\n"
+"PO-Revision-Date: 2014-08-13 19:53+0100\n"
 "Last-Translator: Rafael Medina García <rafamedgar@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -25,11 +25,11 @@ msgstr ""
 "Los archivos de configuración de *Zoe* se encuentran en el directorio ``etc/"
 "``. Estos son los archivos base que se encuentran en el directorio::"
 
-#: ../../getting_started/configuration.rst:11
+#: ../../getting_started/configuration.rst:22
 msgid "Environment"
 msgstr "Entorno"
 
-#: ../../getting_started/configuration.rst:13
+#: ../../getting_started/configuration.rst:24
 msgid ""
 "The ``environment.sh`` script sets several variables such as the *server "
 "host*, *twitter credentials*, *jabber information*, etc. It has the "
@@ -39,7 +39,7 @@ msgstr ""
 "servidor*, *credenciales de twitter*, *información de jabber*, etc. Tiene el "
 "siguiente contenido:"
 
-#: ../../getting_started/configuration.rst:42
+#: ../../getting_started/configuration.rst:47
 msgid ""
 "**You should never give Zoe your own twitter/jabber credentials. Create a "
 "new account if you intend to use them.**"
@@ -47,15 +47,7 @@ msgstr ""
 "**Nunca des a Zoe tus propias credenciales de twitter/jabber. Crea una nueva "
 "cuenta si pretendes usarlos.**"
 
-#: ../../getting_started/configuration.rst:44
-msgid ""
-"The information required to connect to a Twitter account can be obtained "
-"from the Twitter profile."
-msgstr ""
-"La información requerida para conectarse a una cuenta de Twitter se puede "
-"obtener del perfil de usuario de Twitter."
-
-#: ../../getting_started/configuration.rst:46
+#: ../../getting_started/configuration.rst:49
 msgid ""
 "By default, the Jabber and GMail accounts use the same credentials due to "
 "the Google Talk (Hangouts) service using Jabber. You can use other Jabber "
@@ -65,15 +57,15 @@ msgstr ""
 "debido a que el servicio de Google Talk (Hangouts) utiliza Jabber. Puedes "
 "utilizar otros servicios de Jabber y correo electrónico si lo deseas."
 
-#: ../../getting_started/configuration.rst:49
+#: ../../getting_started/configuration.rst:52
 msgid "Users"
 msgstr "Usuarios"
 
-#: ../../getting_started/configuration.rst:51
+#: ../../getting_started/configuration.rst:54
 msgid "The ``zoe-users.conf`` file follows this structure:"
 msgstr "El archivo ``zoe-users.conf`` sigue esta estructura:"
 
-#: ../../getting_started/configuration.rst:69
+#: ../../getting_started/configuration.rst:72
 msgid ""
 "Each user is identified using the ``[subject USER]`` tag and has the "
 "following attributes:"
@@ -81,15 +73,15 @@ msgstr ""
 "Cada usuario está identificado por la etiqueta ``[subject USUARIO]`` y tiene "
 "los siguientes atributos:"
 
-#: ../../getting_started/configuration.rst:71
+#: ../../getting_started/configuration.rst:74
 msgid "``name``: The user's name (e.g. Zoe)."
 msgstr "``name``: El nombre del usuario (ej. Zoe)."
 
-#: ../../getting_started/configuration.rst:72
+#: ../../getting_started/configuration.rst:75
 msgid "``twitter``: The user's twitter username (e.g. gul_zoe)."
 msgstr "``twitter``: El nombre de usuario de twitter (ej. gul_zoe)."
 
-#: ../../getting_started/configuration.rst:73
+#: ../../getting_started/configuration.rst:76
 msgid ""
 "``preferred``: The preferred way for Zoe to communicate with the user. "
 "Available values are ``twitter``, ``jabber``, ``mail``."
@@ -97,7 +89,7 @@ msgstr ""
 "``preferred``: La forma de comunicación con Zoe preferida por el usuario. "
 "Los posibles valores son ``twitter``, ``jabber``, ``mail``."
 
-#: ../../getting_started/configuration.rst:74
+#: ../../getting_started/configuration.rst:77
 msgid ""
 "``jabber``: The user's jabber address. Note that if you are using *Google "
 "Hangouts*, the jabber addresses have the format "
@@ -111,15 +103,15 @@ msgstr ""
 "la dirección, puedes intentar hablar con *Zoe* por Jabber y obtener la "
 "dirección de los registros."
 
-#: ../../getting_started/configuration.rst:75
+#: ../../getting_started/configuration.rst:78
 msgid "``mail``: The user's mail address."
 msgstr "``mail``: La dirección de correo del usuario."
 
-#: ../../getting_started/configuration.rst:76
+#: ../../getting_started/configuration.rst:79
 msgid "``alias``: The user's alias."
 msgstr "``alias``: El alias del usuario."
 
-#: ../../getting_started/configuration.rst:78
+#: ../../getting_started/configuration.rst:81
 msgid ""
 "Some agents may use *groups* to send mails to several users at the same time "
 "or check for user permissions. Define a new group by using the scructure "
@@ -129,3 +121,47 @@ msgstr ""
 "usuarios al mismo tiempo o comprobar permisos. Se puede definir un nuevo "
 "grupo usando la estructura ``[group NOMBRE DE GRUPO]`` y añadiendo a sus "
 "usuarios en el atributo``members``."
+
+#: ../../getting_started/configuration.rst:13
+msgid "Agents"
+msgstr "Agentes"
+
+#: ../../getting_started/configuration.rst:17
+msgid ""
+"Some agents, such as the Twitter agent, may include additional configuration "
+"files. In this case, ``twitter.conf`` contains the credentials required by "
+"the Twitter agent. These credentials can be obtained from the Twitter "
+"profile."
+msgstr ""
+"Algunos agentes, como el agente de Twitter, pueden incluir archivos de "
+"configuración adicionales. En este caso, ``twitter.conf`` contiene las "
+"credenciales requeridas por el agente de Twitter. Estas credenciales se "
+"pueden obtener desde el perfil de Twitter."
+
+#: ../../getting_started/configuration.rst:19
+msgid ""
+"The ``zam`` directory is part of the Zoe Agent Manager, in charge of "
+"installing and managing agents. For more information, check the :doc:`Agent "
+"installation section </agents/installing>`."
+msgstr ""
+"El directorio ``zam`` es parte del Gestor de Agentes de Zoe, encargado de "
+"instalar y gestionar agentes. Para más información, visita la :doc:`sección "
+"de instalación de Agentes </agents/installing>`."
+
+#: ../../getting_started/configuration.rst:15
+msgid ""
+"The ``zoe.conf`` file contains a list of agents with their corresponding "
+"ports and a list of agents related to a specific topic. For more information "
+"check the :doc:`Agents section </agents/index>` of this documentation."
+msgstr ""
+"El archivo ``zoe.conf`` contiene una lista de agentes con sus "
+"correspondientes puertos y una lista de agentes relacionados con un tema "
+"específico. Para más información, visita la :doc:`sección de Agentes </"
+"agents/index>` de esta documentación"
+
+#~ msgid ""
+#~ "The information required to connect to a Twitter account can be obtained "
+#~ "from the Twitter profile."
+#~ msgstr ""
+#~ "La información requerida para conectarse a una cuenta de Twitter se puede "
+#~ "obtener del perfil de usuario de Twitter."
